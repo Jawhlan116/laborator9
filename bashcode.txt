@@ -1,0 +1,99 @@
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~
+$ cd labajil9
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9
+$ git init
+Initialized empty Git repository in C:/Users/Admin/labajil9/.git/
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dasgal1.java
+        dasgal2/
+        dasgal3/
+        dasgal4.java
+        dasgal5/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9 (master)
+$ git add dasgal1.java
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9 (master)
+$ git commit -m "kwadrat yzguur oloh arga"
+[master (root-commit) ac7ec3c] kwadrat yzguur oloh arga
+ 1 file changed, 23 insertions(+)
+ create mode 100644 dasgal1.java
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9 (master)
+$ git add dasgal2
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9 (master)
+$ git commit -m "Kwadrat yzguur oloh argad batalgaa nemeh"
+[master ad487da] Kwadrat yzguur oloh argad batalgaa nemeh
+ 2 files changed, 27 insertions(+)
+ create mode 100644 dasgal2/dasgal2.java
+ create mode 100644 dasgal2/dasgal2_aldaa_zurag.PNG
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9 (master)
+$ git add dasgal3
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9 (master)
+$ git commit -m "Toog 0-d huwaah"
+[master 4fce8dd] Toog 0-d huwaah
+ 2 files changed, 24 insertions(+)
+ create mode 100644 dasgal3/dasgal3.java
+ create mode 100644 dasgal3/dasgal3_aldaa_zurag.PNG
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9 (master)
+$ git add dasgal4
+fatal: pathspec 'dasgal4' did not match any files
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9 (master)
+$ git add dasgal4.java
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9 (master)
+$ git commit -m "Toog batalgaagui 0-d huwaah"
+[master 915e6c9] Toog batalgaagui 0-d huwaah
+ 1 file changed, 30 insertions(+)
+ create mode 100644 dasgal4.java
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9 (master)
+$ git add dasgal5
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9 (master)
+$ git commit -m "Zunii saruud"
+[master f19a862] Zunii saruud
+ 2 files changed, 12 insertions(+)
+ create mode 100644 dasgal5/dasgal5.java
+ create mode 100644 dasgal5/dasgal5_aldaa_zurag.PNG
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9 (master)
+$ git remote add origin https://github.com/Jawhlan116/laborator9.git
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9 (master)
+$ git push origin master
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (21/21), 81.48 KiB | 20.37 MiB/s, done.
+Total 21 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/Jawhlan116/laborator9.git
+ * [new branch]      master -> master
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9 (master)
+$ touch bashcode.txt
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9 (master)
+$ code bashcode.txt
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/labajil9 (master)
+$
